@@ -1,0 +1,55 @@
+Use Case - smile or not using logistics regression
+----------------------------------------------------
+
+smile stalker 
+--------------
+
+image -> has more dots -> made up of  pixels - 0 to 255 - numerical value 
+
+RGB Images -> RED GREEN BLUE
+(3 layers)
+same as human eyes lenses has RGB
+
+yellow -> RGB(255,255,0)
+violet -> RGB(255,192,203)
+orange -> RGB(150,75,0)
+
+step 1 - RGB to Gray scale
+---------------------------
+RGB Images(3 channel) -> Gray scale(1 channel - b/w)
+
+step 2 - Gray scale to NumPy array
+-----------------------------------
+
+
+logistics regression param
+
+penalty -> {l1, l2, elastic net, None} default =l2
+
+dual -> what kind of regularization choose. dual form.
+
+tol -> stopping criteria -> global minima
+
+C -> specify regularization
+
+fit_intercept -> constant
+
+intercept_scaling -> scale the intercept
+
+random_state -> shuffle the data 
+
+max_iter 
+
+n_jobs
+
+
+
+
+streamlit -> ui for ml projects
+-----------------------------------
+python -m pip install streamlit
+
+streamlit run app.py 
+
+
+
